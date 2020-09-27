@@ -1,0 +1,67 @@
+.photos-Results {
+    margin: 20px auto;
+    display: block;
+    column-count: 3;
+    width: 100%;
+    max-width: 1212px;
+    column-gap: 1em;
+}
+.img-container{
+    margin-bottom: 0.5em;
+    position: relative;
+}
+
+.img-container a {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    color: #fff;
+    opacity: 0.8;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.img-container a img {
+    width: 24px;
+}
+
+.user-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    opacity: 0.8;
+    padding: 10px
+}
+.user-info .profile_pic {
+    opacity: 1;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.user-info {
+    height: 0px;
+    transition: height 1s;
+}
+.img-container:hover .user-info{
+    height: 30px
+    
+}
+input[type="text"] {
+    height: 32px;
+    border: 1px solid #CCC;
+    margin-right: 10px;
+}
+button {
+    height: 36px;
+    border: 1px solid #CCC;
+    padding: 0px 15px;
+    
+}
+
+@media (max-width: 796px) {
+    .photos-Results {
+        column-count: 1;
+    }
+}
