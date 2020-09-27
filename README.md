@@ -11,7 +11,7 @@ This react app is using unsplash api to load photos. It also allows user to sear
 - Netlify for CI/CD 🚀
 
 ### Screenshots
-![]((./screenshot.png))
+![]((./screenshots.png))
 
 ## Available Scripts
 
